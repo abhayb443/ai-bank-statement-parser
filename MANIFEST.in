@@ -1,0 +1,8 @@
+include README.md
+include requirements.txt
+include LICENSE
+include example_usage.py
+include test_module.py
+recursive-include Docs *.pdf
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co] 
